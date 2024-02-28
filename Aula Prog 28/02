@@ -1,0 +1,129 @@
+# Linha de Comentário
+
+"""
+Docsstrings = documentação mais extensa
+
+"""
+ #end=
+# sep=
+# scape char \ ou \t
+print("Olá,\"Mundo\"")
+
+n=input("Informe o seu nome: ")
+print("Muito Prazer,",n)
+
+# type hint
+idade : int = 16
+print (idade)
+
+# Python não possui o conceito de constante
+PI= 3.1415
+TAM_MAXIMO= 15
+# CapsLock serve pra "gerar" constanste
+
+# Todo dado diferente de 0, 0.0, "", etc. são considerados falso, ou seja, vazio = False e todo_resto=True
+
+"""
+Soma = +
+Subtração = -
+Multiplicação = *
+Divisão = /
+Divisão Inteira = //
+Potência = **
+Módulo (Resto) = %
+"""
+
+# Quando um dos operandos for uma string:
+
+# print ("-"*30) = repete-se o número de vezes da multiplicação
+# print ("-"+"+") = -+
+
+"""
+Operadores de atribuição
+x = 2
+x += 1 # x = x+1
+x -= 4 # x = x-4
+x *= 6
+x /= 8
+x //= 4
+x **= 2
+X %= 5
+""""
+
+# Operadores de comparação
+
+(x > y) # maior que
+(x < y) # menor que
+(x >= y) # maior ou igual a
+(x <= y) # menor ou igual a
+(x ==y ) # igual a
+(x != y) # diferente de
+
+# Comparação de Strings é feita através da tabela ASCII
+x = "abc"
+y = "Abc"
+
+# letras minúsculas tem maior valor que maiúsculas
+
+# Operadores Lógicos
+
+a = True
+b = False
+
+print (a and b)
+print (a or b)
+print (not a)
+
+# Type Casting
+
+#Todo dado diferente de 0, 0.0, "", etc. são considerados falso, ou seja, vazio = False e todo_resto=True
+
+print ('10' or 75)
+
+#pythonico
+
+nome = input ("Informe seu nome: ") or "Valor Inválido"
+print (nome)
+
+""""
+
+Precedência de Operadores
+
+()
+**
+* / // %
++ -
+< <= > >= == !=
+not
+and
+or
+"""
+
+# Round (Media,1) = EX.: 8.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
