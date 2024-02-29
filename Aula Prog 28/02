@@ -100,6 +100,8 @@ or
 """
 
 # Round (Media,1) = EX.: 8.1
+# import math ( comando para fazer o comando a seguir funcionar
+# math.sqrt
 
 
 
