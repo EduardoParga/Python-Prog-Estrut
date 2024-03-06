@@ -99,14 +99,109 @@ and
 or
 """
 
+
+
 # Round (Media,1) = EX.: 8.1
-# import math ( comando para fazer o comando a seguir funcionar
-# math.sqrt
+
+#def -> definir (ou declarar)
+
+def cabecalho():
+    print("." * 30)
+    print("Relatório")
+    print("."*30)
+
+# Uso ou chamada da função
+cabecalho()
+cabecalho()
+cabecalho()
+cabecalho()
+cabecalho()
+cabecalho()
+
+def soma (a, b)
+    return ( a + b)
+
+print (soma ( 10, 2)+ soma(5, 5))
 
 
+#Estruturas de decisão (Ou Seleção)
+"""
+-if,elif,else
+-math/case
 
 
+"""
 
+def saudacao(turno):
+    if turno == "M":
+        print("Bom dia!")
+
+"""def saudacao(turno):
+    if turno == "M":
+        print("Bom dia!")
+    elif  turno=="T":
+        print("Boa Tarde!")
+    elif turno=="N":
+        print("Boa Noite!")
+    else:
+        print("Informação Inválida!")
+
+saudacao("M")
+saudacao("T")
+saudacao("N")"""
+
+def saudacao2(turno):
+    if turno=="M":
+        return "Bom dia!"
+    if turno=="T":
+            return "Boa tarde!"
+    if turno=="N":
+         return "Boa Noite!"
+
+    return "Informação Inválida!"
+
+saudacao2("M")
+
+# Ternários
+
+def e_par(num):
+     return "é par" if num % 2 == 0 else "é impar"
+
+def e_par2 (num):
+    return num % 2 == 0
+
+def le_nome():
+    nome = input("Informe seu nome: ")
+    if nome == "":
+        print ("Nome Inválido!")
+    if not nome: # Mais comum de ser usado
+         print ("Nome Inválido!")
+
+def avaliacao(conceito):
+     if conceito == "Bom" or conceito == "Ótimo" or conceito == "Excelente":
+          print ("Aprovado!")
+     else:
+          print ("Reprovado!")
+
+
+def avaliacao2(conceito):
+     match conceito:
+          case "Bom":
+                print ("Aprovado")
+          case ("Ótimo"):
+                print("Aprovado!")
+          case ("Excelente"):
+                print("Aprovado!")
+          case _:
+                print("Reprovado!")
+
+
+def avaliacao3(conceito):
+     match conceito:
+          case "Bom"| "Ótimo"| "Excelente":
+               print ("Aprovado!")
+          case _:
+               print("Reprovado!")
 
 
 
